@@ -58,7 +58,7 @@ The entire project works perfectly fine. Live detection gives good results for t
 - We have tried training EfficientNetB0 by combining FER-13 and affectnet datasets but the results were not good. This was mainly because FER-13 has grayscal images whereas Affectnet has high resolution RGB images this led to model generalizing for dataset-level features instead of facial features in both the datasets. 
 - Training on FER-13 alone can yield to lower accuracies because the dataset has huge class imbalance hence it is important that we train the model based on class weights that is giving importance to classes with less samples so that the model can generalize better for them.
 
-# Presenation and Report:
+# Presentation and Report:
 - The presentation for this project can be found in the youtube link given below:
 https://youtu.be/JamxVMeprp8
 
