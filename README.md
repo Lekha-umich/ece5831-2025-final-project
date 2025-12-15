@@ -27,6 +27,7 @@ The output of this system is displayed using a flask based application.
 Flask: 
 - Run <code>pip install -r requirements.txt</code> to install all dependencies.
 - Run <code>python app.py</code> and give camera permission if asked.
+The python version used for this project is python 3.11
 
 # Tech Stack:
 - Keras
@@ -64,3 +65,8 @@ https://youtu.be/JamxVMeprp8
 - The report for this project can be found <a href = "https://drive.google.com/file/d/1T136SuQu1H_0DELrkjZ3WLxkdTjr1Cm_/view?usp=sharing">here</a>.
 
 - The slides for this project can be found <a href = "https://docs.google.com/presentation/d/12jRJSHnvtI6_cuqVAbuF7IhIvlrpl15Z/edit?usp=sharing&ouid=117537070864693278233&rtpof=true&sd=true">here</a>.
+
+# About the files:
+- The file trails.ipynb has the code for model trained using both FER-13 and Affectnet dataset using EffecientNetB0 model, and "cbam_efficientnetb0_v2_combinedDatasets" is the weight file.
+- The file trail3.ipynb is the model trained using EffecientNetB0 model using FER-13 dataset which has good train accurcacy but bad validation accuracy. "cbam_efficientnetb0_v1.h5" is the weight file.
+- final-project.ipynb is the final model which we have decided to use for our project, "fer_efficientnet_b3_70pct.kera" is it's weight file.
