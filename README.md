@@ -1,4 +1,4 @@
-# Emotion-Music-Recommendation
+# Emotion-based-Music-Recommendation
 Music Recommendation system based on User's facial expression
 
 # Demo:
